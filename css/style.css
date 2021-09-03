@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Mulish', sans-serif;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin:0;
+	overflow: hidden;
+}
+
+.background{
+	background-image: url(../img/jonatan-pie-EvKBHBGgaUo-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -20px;
+	bottom: -20px;
+
+	z-index: -1;
+	filter: blur(20px);
+}
+
+.container{
+	background-color: #fff;
+	padding: 20px 30px;
+	box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+.form-group{
+	margin:20px 0;
+
+	position: relative;
+}
+
+.form-group label{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-control{
+	width: 100%;
+	padding: 3px 4px;
+	font-size: 16px;
+	border-radius: 5px;
+	border-color: lightgreen;
+
+}
+
+.form-control:focus{
+	outline: 0;
+}
+
+
+
+.fas{
+	position: absolute;
+	top: 1.8rem;
+	right: 1rem;
+	cursor: pointer;
+}
+
+.btn{
+
+	background-color: lightgreen;
+	color:#000;
+	font-size: 17px;
+	font-weight: bold;
+
+	display: block;
+	width: 360px;
+	
+	padding: 5px 20px;
+	
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.btn:focus{
+	outline: 0;
+}
